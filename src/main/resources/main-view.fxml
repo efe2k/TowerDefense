@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.td.ui.MainController"
+            styleClass="game-root">
+
+    <!-- ======= ÜST BAR ======= -->
+    <top>
+        <HBox spacing="20" alignment="CENTER_LEFT" styleClass="top-bar">
+            <padding>
+                <Insets top="10" left="20" bottom="10" right="20"/>
+            </padding>
+
+            <children>
+                <Label text="Can:"/>
+                <Label fx:id="lLives" text="100" styleClass="stat-value"/>
+
+                <Label text="Para:"/>
+                <Label fx:id="lMoney" text="200" styleClass="stat-value"/>
+
+                <Label text="Dalga:"/>
+                <Label fx:id="lWave" text="0" styleClass="stat-value"/>
+
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <Button fx:id="btnStart"
+                        text="Dalgayı Başlat"
+                        onAction="#onStartWave"
+                        styleClass="primary-button"/>
+
+                <Button fx:id="btnRestart"
+                        text="Yeniden Başlat"
+                        onAction="#onRestartGame"
+                        styleClass="secondary-button"/>
+            </children>
+        </HBox>
+    </top>
+
+    <!-- ======= SOL-ORTA (OYUN ALANI) ======= -->
+    <center>
+        <StackPane alignment="CENTER">
+            <Canvas fx:id="canvas" width="900" height="520"/>
+        </StackPane>
+    </center>
+
+
+    <!-- ======= SAĞ PANEL (KULELER) ======= -->
+    <right>
+        <VBox spacing="14" alignment="TOP_CENTER" styleClass="right-panel">
+            <padding>
+                <Insets top="60" right="40"/>
+            </padding>
+
+            <children>
+                <Label text="Kuleler" styleClass="side-title"/>
+
+                <Button fx:id="btnArcher"
+                        text="Bıçak (50)"
+                        onAction="#onBuildBicak"
+                        styleClass="tower-btn"/>
+
+                <Button fx:id="btnCannon"
+                        text="Ocak (75)"
+                        onAction="#onBuildOcak"
+                        styleClass="tower-btn"/>
+
+                <Button fx:id="btnIce"
+                        text="Dondurucu (70)"
+                        onAction="#onBuildDondurucu"
+                        styleClass="tower-btn"/>
+            </children>
+        </VBox>
+    </right>
+
+</BorderPane>

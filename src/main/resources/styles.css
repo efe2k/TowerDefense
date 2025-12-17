@@ -1,0 +1,48 @@
+.menu-root {
+    -fx-background-image: url("mutfak.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+/* OYUN EKRANI – mutfak fonu */
+.game-root {
+    /* Arka plana mutfak görseli */
+    -fx-background-image: url("mutfak.png");
+    -fx-background-size: cover;           /* pencereye yay */
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+
+    /* Hafif beyaz örtü – çok parlak olmasın */
+    -fx-background-color: #ffffffCC;      /* %80 opak beyaz overlay */
+    -fx-background-insets: 0, 0;
+    -fx-background-radius: 0;
+}
+
+
+/* Kart görünümü */
+.menu-card {
+    -fx-background-color: rgba(255,255,255,0.85);
+    -fx-background-radius: 20;
+    -fx-padding: 30;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0, 0, 8);
+}
+
+.menu-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+/* Butonlar */
+.primary-button {
+    -fx-background-color: #ff914d;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 25;
+    -fx-background-radius: 16;
+}
+
+.secondary-button {
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #333;
+    -fx-padding: 10 25;
+    -fx-background-radius: 16;
+}

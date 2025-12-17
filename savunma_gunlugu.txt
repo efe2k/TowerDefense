@@ -1,0 +1,50 @@
+Simülasyon Başladı. Senaryo: 'Zorlu Geçit'
+Başlangıç Can: 100, Para: 200.
+------------------------------------------------------
+[18:57:37.577] Simülasyon başlatıldı. Başlangıç can: 100, para: 200
+[18:57:42.227] Kule yerleştirildi: BicakKulesi (485,164)
+[18:57:42] Kullanıcı, (485, 164) konumuna 'BicakKulesi-ID413AC3EB' inşa etti. Kalan Para: 150.
+[18:57:44.693] Kule yerleştirildi: OcakKulesi (476,224)
+[18:57:44] Kullanıcı, (476, 224) konumuna 'OcakKulesi-ID423EC0B3' inşa etti. Kalan Para: 75.
+[18:57:46.727] Kule yerleştirildi: DondurucuKulesi (502,189)
+[18:57:46] Kullanıcı, (502, 189) konumuna 'DondurucuKulesi-ID39EBC114' inşa etti. Kalan Para: 5.
+[18:57:48.127] Dalga başladı: 1
+[18:57:48] Dalga 1 başladı. (Toplam Düşman: 4)
+[18:57:48] Düşman 'HavucDusman-ID263B2A31' (Can: 40.0/40.0) haritaya girdi.
+[18:57:48] Düşman 'HavucDusman-ID4FA9A9F4' (Can: 40.0/40.0) haritaya girdi.
+[18:57:48] Düşman 'ZirhliPatatesDusman-ID21E191A6' (Can: 80.0/80.0) haritaya girdi.
+[18:57:48] Düşman 'UcanSoganDusman-ID3234E988' (Can: 30.0/30.0) haritaya girdi.
+[18:57:57.614] Düşman öldü: UcanSoganDusman (+15 para)
+[18:57:57] Düşman 'UcanSoganDusman-ID3234E988' öldü. Ödül +15. Toplam Para: 20.
+[18:57:59.629] Düşman öldü: HavucDusman (+10 para)
+[18:57:59] Düşman 'HavucDusman-ID263B2A31' öldü. Ödül +10. Toplam Para: 30.
+[18:58:01.646] Düşman öldü: HavucDusman (+10 para)
+[18:58:01] Düşman 'HavucDusman-ID4FA9A9F4' öldü. Ödül +10. Toplam Para: 40.
+[18:58:09.595] Düşman öldü: ZirhliPatatesDusman (+20 para)
+[18:58:09] Düşman 'ZirhliPatatesDusman-ID21E191A6' öldü. Ödül +20. Toplam Para: 60.
+[18:58:30.043] Dalga başladı: 2
+[18:58:30] Dalga 2 başladı. (Toplam Düşman: 6)
+[18:58:30] Düşman 'HavucDusman-ID7769C89A' (Can: 40.0/40.0) haritaya girdi.
+[18:58:30] Düşman 'HavucDusman-ID333682E5' (Can: 40.0/40.0) haritaya girdi.
+[18:58:30] Düşman 'HavucDusman-ID521AB8E6' (Can: 40.0/40.0) haritaya girdi.
+[18:58:30] Düşman 'ZirhliPatatesDusman-ID1073D403' (Can: 80.0/80.0) haritaya girdi.
+[18:58:30] Düşman 'ZirhliPatatesDusman-ID29E7E38F' (Can: 80.0/80.0) haritaya girdi.
+[18:58:30] Düşman 'UcanSoganDusman-ID2E417DFC' (Can: 30.0/30.0) haritaya girdi.
+[18:58:33.042] Kule yerleştirildi: BicakKulesi (274,226)
+[18:58:33] Kullanıcı, (274, 226) konumuna 'BicakKulesi-ID274627B6' inşa etti. Kalan Para: 10.
+[18:58:36.162] Düşman öldü: HavucDusman (+10 para)
+[18:58:36] Düşman 'HavucDusman-ID7769C89A' öldü. Ödül +10. Toplam Para: 20.
+[18:58:38.196] Düşman öldü: HavucDusman (+10 para)
+[18:58:38] Düşman 'HavucDusman-ID333682E5' öldü. Ödül +10. Toplam Para: 30.
+[18:58:39.828] Düşman öldü: UcanSoganDusman (+15 para)
+[18:58:39] Düşman 'UcanSoganDusman-ID2E417DFC' öldü. Ödül +15. Toplam Para: 45.
+[18:58:40.829] Düşman öldü: HavucDusman (+10 para)
+[18:58:40] Düşman 'HavucDusman-ID521AB8E6' öldü. Ödül +10. Toplam Para: 55.
+[18:58:47.462] Düşman öldü: ZirhliPatatesDusman (+20 para)
+[18:58:47] Düşman 'ZirhliPatatesDusman-ID1073D403' öldü. Ödül +20. Toplam Para: 75.
+[18:58:49.875] Kule yerleştirildi: OcakKulesi (384,196)
+[18:58:49] Kullanıcı, (384, 196) konumuna 'OcakKulesi-ID64A1F83D' inşa etti. Kalan Para: 0.
+[18:58:52.312] Düşman öldü: ZirhliPatatesDusman (+20 para)
+[18:58:52] Düşman 'ZirhliPatatesDusman-ID29E7E38F' öldü. Ödül +20. Toplam Para: 20.
+[18:58:52.314] SON: Tüm dalgalar temizlendi. OYUN KAZANILDI!
+[18:58:52] OYUN KAZANILDI. Tüm dalgalar temizlendi.
